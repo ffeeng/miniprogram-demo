@@ -1,0 +1,49 @@
+<view>
+  template示例：
+</view>
+<text decode="true" class="ml50 inline-block">
+  &lt;template name="footer"  &gt;
+   { {msg} }
+  &lt;/template&gt;
+
+  &lt;template is="footer" data="{ {msg:'hello'} }" &gt;
+  &lt;/template &gt;
+</text>
+<view class="mt50">
+  页面显示：
+</view>
+
+<template name="footer">
+  <view class="ml50">{{msg}}</view>
+</template>
+
+
+<template is="footer" data="{{msg:'hello'}}">
+</template>
+
+<view class="mt50">
+  slot示例：
+</view>
+<text decode="true" class="ml50 inline-block">
+  组件内部定义插槽
+  &lt;view&gt;
+    &nbsp;&nbsp;&lt;slot name="before">&lt;/slot&gt;
+    &nbsp;&nbsp;&lt;view>slot demo&lt;/view&gt;
+    &nbsp;&nbsp;&lt;slot name="after">&lt;/slot&gt;
+  &lt;/view&gt;
+  调用组件
+  &lt;slot-demo&gt;
+    &nbsp;&nbsp;&lt;view slot="before">before&lt;/view&gt;
+    &nbsp;&nbsp;&lt;view slot="after">after&lt;/view&gt;
+  &lt;/slot-demo&gt;
+</text>
+<view class="mt50">
+  页面显示：
+</view>
+
+<slot-demo>
+    <view slot="before">before</view>
+    <view slot="after">after</view>
+</slot-demo>
+
+

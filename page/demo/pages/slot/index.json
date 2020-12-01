@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "slot用法",
+    "usingComponents": {
+        "slot-demo": "./slot-demo/index"
+    }
+}

@@ -5,6 +5,19 @@ page {
   font-size: 32rpx;
   line-height: 1.6;
 }
+.mt50{
+  margin-top: 50rpx;
+}
+.ml50{
+  margin-left: 50rpx;
+}
+.code{
+  font-size: 14px;
+  white-space: pre;
+}
+.inline-block{
+  display: inline-block;
+}
 checkbox, radio{
   margin-right: 10rpx;
 }

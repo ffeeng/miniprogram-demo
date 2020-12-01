@@ -1,0 +1,5 @@
+<view class="ml50">
+  <slot name="before"></slot>
+  <view>slot demo</view>
+  <slot name="after"></slot>
+</view>

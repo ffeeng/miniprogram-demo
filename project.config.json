@@ -18,8 +18,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.14.0",
-	"appid": "wxe1011d1a9d9dabbe",
-	"projectname": "miniprogram-1",
+	"appid": "wxda1343baad77dc86",
+	"projectname": "miniprogram-demo",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -35,13 +35,42 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "page/demo/pages/lifetimes/index",
+					"pathName": "page/demo/pages/lifetimes/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "page/demo/pages/html-char/index",
+					"pathName": "page/demo/pages/html-char/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "page/demo/pages/slot/index",
+					"pathName": "page/demo/pages/slot/index",
+					"scene": null
+				}
+			]
 		}
 	}
 }
