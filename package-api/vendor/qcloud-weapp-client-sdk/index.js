@@ -4,7 +4,14 @@ var Session = require('./lib/session');
 var request = require('./lib/request');
 var Tunnel = require('./lib/tunnel');
 
-var exports = module.exports = {
+// 导出错误类型码
+Object.keys(constants).forEach(function (key) {
+    if (key.indexOf('ERR_') === 0) {
+        exports[key] = constants[key];
+    }
+});
+
+module.exports = {
     login: login.login,
     setLoginUrl: login.setLoginUrl,
     LoginError: login.LoginError,
@@ -17,9 +24,3 @@ var exports = module.exports = {
     Tunnel: Tunnel,
 };
 
-// 导出错误类型码
-Object.keys(constants).forEach(function (key) {
-    if (key.indexOf('ERR_') === 0) {
-        exports[key] = constants[key];
-    }
-});

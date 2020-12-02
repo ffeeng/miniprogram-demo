@@ -1,4 +1,4 @@
-const qcloud = require('../../../vendor/qcloud-weapp-client-sdk')
+import qcloud from '../../vendor/qcloud-weapp-client-sdk/index'
 const loginUrl = require('../../../config').loginUrl
 const tunnelUrl = require('../../../config').tunnelUrl
 

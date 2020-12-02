@@ -61,30 +61,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "page/demo/pages/lifetimes/index",
-					"pathName": "page/demo/pages/lifetimes/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "page/demo/pages/html-char/index",
-					"pathName": "page/demo/pages/html-char/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "page/demo/pages/slot/index",
-					"pathName": "page/demo/pages/slot/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "page/demo/pages/nwjs/index",
-					"pathName": "page/demo/pages/nwjs/index",
-					"query": "",
+					"name": "page/tabBar/API/index",
+					"pathName": "page/tabBar/API/index",
 					"scene": null
 				}
 			]
