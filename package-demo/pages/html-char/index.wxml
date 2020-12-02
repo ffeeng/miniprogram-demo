@@ -1,0 +1,17 @@
+<view catchtap="aa">
+
+  <image src="/image/html_char.png" mode="widthFix"></image>
+
+  <view>
+    注意事项：
+  </view>
+  <view class="ml50">
+    转移字符要放在text中 同时指定decode='true'
+  </view>
+  <view>
+    例如:
+  </view>
+  <text decode='true' class="ml50" style="display: inline-block">
+    &lt;text decode='true'&gt;&lt; /text&gt;
+  </text>
+</view>

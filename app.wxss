@@ -13,7 +13,7 @@ page {
 }
 .code{
   font-size: 14px;
-  white-space: pre;
+  white-space: pre-line;
 }
 .inline-block{
   display: inline-block;

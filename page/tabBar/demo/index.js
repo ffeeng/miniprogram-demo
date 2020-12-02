@@ -3,11 +3,11 @@ Page({
     list: [
       {
         id: 'api',
-        name: '开放接口',
+        name: '示例演示',
         open: false,
         pages: [
           {
-            zh: '转移字符',
+            zh: '转译字符',
             url: 'html-char/index'
           },
           {
@@ -17,6 +17,9 @@ Page({
           {
             zh: '生命周期',
             url: 'lifetimes/index'
+          },{
+            zh: '小程序运行原理',
+            url: 'nwjs/index'
           },
         ]
       },

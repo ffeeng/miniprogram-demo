@@ -1,7 +1,0 @@
-image{
-  width:589px;
-  height: 237px;
-}
-.ml50{
-  margin-left: 50rpx;
-}

@@ -10,15 +10,24 @@
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false,
 		"coverView": true,
+		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
-		"useCompilerModule": false
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.14.0",
-	"appid": "wxda1343baad77dc86",
+	"libVersion": "2.10.2",
+	"appid": "wx222552570ee7e1e9",
 	"projectname": "miniprogram-demo",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -68,6 +77,14 @@
 					"id": -1,
 					"name": "page/demo/pages/slot/index",
 					"pathName": "page/demo/pages/slot/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "page/demo/pages/nwjs/index",
+					"pathName": "page/demo/pages/nwjs/index",
+					"query": "",
 					"scene": null
 				}
 			]

@@ -1,0 +1,74 @@
+<image src="/package-demo/resources/lifetimes.png" mode="widthFix"></image>
+<view>
+  页面生命周期:
+</view>
+<view class="code">
+  生命周期函数--监听页面加载
+  接收页面参数可以获取wx.navigateTo和wx.redirectTo及<navigator/>中的 query
+  onLoad(options) {},
+  生命周期函数--监听页面初次渲染完成
+  onReady() {},
+  生命周期函数--监听页面显示
+  onShow() {},
+  生命周期函数--监听页面隐藏
+  onHide() {},
+  生命周期函数--监听页面卸载
+  onUnload() {},
+</view>
+<view class="code">
+  执行顺序：先显示DOM->onLoad->onShow->onReady
+  页面离开时调用 onUnload （页面栈变化会创建、销毁页面）
+  小程序在后台运行时调用 hide（页面栈不变）
+  小程序在前台运行时调用 show（页面栈不变）
+</view>
+
+<view class="mt50">
+  组件生命周期:
+</view>
+<view class="code">
+  * 在组件实例刚刚被创建时执行
+  * 最低基础库版本：
+  created() {},
+  * 在组件实例进入页面节点树时执行
+  * 最低基础库版本：
+  attached() {},
+  * 在组件在视图层布局完成后执行
+  * 最低基础库版本：
+  ready() {},
+  * 在组件实例被移动到节点树另一个位置时执行
+  * 最低基础库版本：
+  moved() {},
+  * 在组件实例被从页面节点树移除时执行
+  * 最低基础库版本：
+  detached() {},
+  * 每当组件方法抛出错误时执行
+  * 最低基础库版本：
+  error(err) {},
+
+  pageLifetimes: {
+    /** 页面生命周期回调—监听页面显示
+    * 页面显示/切入前台时触发。
+    show() {},
+    /** 页面生命周期回调—监听页面隐藏
+    * 页面隐藏/切入后台时触发。 如 `navigateTo` 或底部 `tab` 切换到其他页面，小程序切入后台等。
+    hide() {},
+    /** 页面生命周期回调—监听页面尺寸变化
+    * 所在页面尺寸变化时执行
+    resize(size) {},
+  }
+</view>
+<view class="code">
+  组件执行顺序：
+    created->attached->页面显示->页面show->ready
+  整体执行顺序：
+    1.com created
+    2.com attached
+    3.page onLoad
+    4.com page show
+    5.page onShow
+    6.com ready
+    7.page onReady
+  当生命周期方法中有await时，执行顺序较复杂
+
+</view>
+<com-demo></com-demo>

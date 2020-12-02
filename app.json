@@ -38,15 +38,16 @@
   },
   "subPackages": [
     {
-      "root": "page/demo/",
+      "root": "package-demo",
       "pages": [
         "pages/html-char/index",
         "pages/lifetimes/index",
+        "pages/nwjs/index",
         "pages/slot/index"
       ]
     },
     {
-      "root": "page/component/",
+      "root": "package-com",
       "pages": [
         "pages/view/view",
         "pages/scroll-view/scroll-view",
@@ -75,7 +76,7 @@
       ]
     },
     {
-      "root": "page/API/",
+      "root": "package-api",
       "pages": [
         "pages/login/login",
         "pages/get-user-info/get-user-info",

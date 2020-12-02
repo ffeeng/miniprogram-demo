@@ -1,0 +1,13 @@
+<view class="code">
+  微信小程序是将小程序代码编译成HTML运行在webview中
+  Native组件层在WebView层之上
+  目前Native实现的组件有：canvas、video、map、textarea
+</view>
+
+<image src="/package-demo/resources/miniprogram_arc.png" mode="aspectWidth"></image>
+<view class="code">
+  两个核心js库
+  WAService.js WAWebView.js
+</view>
+
+

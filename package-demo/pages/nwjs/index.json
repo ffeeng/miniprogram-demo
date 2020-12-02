@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "小程序框架nw.js",
+    "usingComponents": {
+        "slot-demo": "./slot-demo/index"
+    }
+}
